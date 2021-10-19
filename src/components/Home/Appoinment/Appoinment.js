@@ -3,7 +3,7 @@ import "./Appoinment.css";
 const Appoinment = () => {
   return (
     <div className="wrapper rounded bg-white">
-      <div className="h3">BANGLADESH MEDICAL</div>
+      <div className="h3 h2-text">BANGLADESH MEDICAL</div>
       <div className="h5">Appoinment Form</div>
       <div className="form">
         <div className="row">
