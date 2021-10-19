@@ -1,0 +1,16 @@
+/* .image img{
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+} */
+.serviceCard{
+    /* background-color: lightgray; */
+    border: 2px solid  cadetblue;
+   
+}
+.serviceCard img{
+    width: 100%;
+}
+.title{
+    color:cornflowerblue;
+}
