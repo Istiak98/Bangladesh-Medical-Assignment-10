@@ -11,5 +11,5 @@ This is a Medical Center Website.Where you can get many services in minimum pric
 * In All Services Section you csn see all services.
 * In Contact Us page you can contact with as and make an appointment.
 * In About Page you can know about our medical.
-* You Can Take an appoinment by submitting a form.
+* You Can Take an appoinment by submit a form.
 * After Get Service you can logout your profile.
