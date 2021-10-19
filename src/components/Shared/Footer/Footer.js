@@ -1,8 +1,9 @@
-import React from 'react';
-import './Footer.css'
+import React from "react";
+import { NavLink } from "react-router-dom";
+import "./Footer.css";
 const Footer = () => {
-    return (
-        <div className="footer-dark">
+  return (
+    <div className="footer-dark">
       <footer>
         <div className="container">
           <div className="row">
@@ -24,38 +25,38 @@ const Footer = () => {
               </ul>
             </div>
             <div className="col-sm-6 col-md-4 item">
-              <h3>gO tO</h3>
+              <h3>GO TO</h3>
               <ul>
                 <li>
-                  <a href="/">HOME</a>
-                  {/* <NavLink to="/home">Home</NavLink> */}
+                  <NavLink to="/home">Home</NavLink>
                 </li>
                 <li>
-                <a href="/">SURVICES</a>
-                  {/* <NavLink to="/class">ALL Classes</NavLink> */}
+                  <NavLink to="/allservice">ALL Classes</NavLink>
                 </li>
                 <li>
-                <a href="/">GALLARY</a>
-                  {/* <NavLink to="/gallary">GALLARY</NavLink> */}
+                  <NavLink to="/gallary">GALLARY</NavLink>
                 </li>
                 <li>
-                <a href="/">ABOUT US</a>
-                  {/* <NavLink to="/about">About Us</NavLink> */}
+                  <NavLink to="/about">About Us</NavLink>
                 </li>
                 <li>
-                <a href="/">CONTACT US</a>
-                  {/* <NavLink to="/contact">Contact Us</NavLink> */}
+                  <NavLink to="/contact">Contact Us</NavLink>
                 </li>
                 <li>
-                <a href="/">TAKE AN APPOINMENT</a>
-                  {/* <NavLink to="/contact">Contact Us</NavLink> */}
+                  <NavLink to="/appointment">TAKE AN APPOINMENT</NavLink>
                 </li>
               </ul>
             </div>
             <div className="col-md-6 item text">
               <h3>BANGLADESH MEDICAL</h3>
               <p>
-              At BANGLADESH MEDICAL , providing our patients with a trusted and compassionate environment for healthcare is central to our mission. We draw strength from our purpose, which is above all to help and to heal. Our physicians, nurses and other caregivers & supporting staff are passionate about providing the right care at the right time, bringing hope and healing to our patients and their families.
+                At BANGLADESH MEDICAL , providing our patients with a trusted
+                and compassionate environment for healthcare is central to our
+                mission. We draw strength from our purpose, which is above all
+                to help and to heal. Our physicians, nurses and other caregivers
+                & supporting staff are passionate about providing the right care
+                at the right time, bringing hope and healing to our patients and
+                their families.
               </p>
             </div>
           </div>

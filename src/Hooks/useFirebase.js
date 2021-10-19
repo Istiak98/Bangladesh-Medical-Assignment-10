@@ -1,9 +1,6 @@
-import { getAuth, signInWithPopup, GoogleAuthProvider,signOut,onAuthStateChanged ,createUserWithEmailAndPassword } from "firebase/auth";
+import { getAuth, signInWithPopup, GoogleAuthProvider,signOut,onAuthStateChanged } from "firebase/auth";
 import { useEffect, useState } from "react";
 import initializeAuthentication from "../components/Shared/Login/Firebase/firebase.init";
-
-
-
 initializeAuthentication();
 const useFirebase=()=>{
     const [user,setUser]=useState({})

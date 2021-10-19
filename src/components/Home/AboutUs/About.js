@@ -28,15 +28,15 @@ const About = () => {
               </p>
             </div>
             <div className="col-md-6">
-              <h2 style={{"color":"darkcyan"}}>Mission</h2>
+              <h2 style={{ color: "darkcyan" }}>Mission</h2>
               <p>
-                The District of BANGLADESH MEDICAL Hospital Association is the unifying
-                voice for hospitals and health systems in the District of
-                CHITTAGONG and works to advance health policy to strengthen the
-                District’s world-class health care system to ensure that it is
-                equitable and accessible to all.
+                The District of BANGLADESH MEDICAL Hospital Association is the
+                unifying voice for hospitals and health systems in the District
+                of CHITTAGONG and works to advance health policy to strengthen
+                the District’s world-class health care system to ensure that it
+                is equitable and accessible to all.
               </p>
-              <h2 style={{"color":"darkcyan"}}>Vision</h2>
+              <h2 style={{ color: "darkcyan" }}>Vision</h2>
               <p>
                 An efficient and effective health care delivery system that
                 supports a healthy and vibrant community.

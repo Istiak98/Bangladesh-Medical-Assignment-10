@@ -5,7 +5,7 @@ const Work = () => {
     <div className="container overflow-hidden">
       <strong>
         {" "}
-        <h1 className='h2-text'>How It Works</h1>
+        <h1 className="h2-text">How It Works</h1>
       </strong>
       <div className="row gx-5 mb-3 g-4">
         <div className="col-md-4">

@@ -26,7 +26,7 @@
   }
   
   .activeRoute {
-    background-color: yellow;
+   
     border-bottom: 0.4rem solid teal;
     cursor: not-allowed;
   }

@@ -15,6 +15,7 @@ import About from './components/Home/AboutUs/About';
 import ContactUs from './components/Home/Contact/ContactUs';
 import Appoinment from './components/Home/Appoinment/Appoinment';
 import ServiceInfo from './components/ServiceInfo/ServiceInfo';
+import AllService from './components/Home/AllService/AllService';
 import Login from './components/Shared/Login/Login';
 import AuthProvider from './context/AuthProvider';
 import PrivateRoute from './components/Shared/Login/PrivateRoute/PrivateRoute';
@@ -48,6 +49,9 @@ function App() {
          </Route>
          <PrivateRoute  path='/detailService/:id'>
            <ServiceInfo></ServiceInfo>
+         </PrivateRoute>
+         <PrivateRoute  path='/allservice'>
+           <AllService></AllService>
          </PrivateRoute>
          <Route  path='*'>
           <NotFound></NotFound>

@@ -1,10 +1,10 @@
-import React from 'react';
-import Bnr1 from '../../../images/Banner1.jpg'
-import Bnr2 from '../../../images/Banner2.jpg'
-import Bnr3 from '../../../images/Banner3.jpg'
+import React from "react";
+import Bnr1 from "../../../images/Banner1.jpg";
+import Bnr2 from "../../../images/Banner2.jpg";
+import Bnr3 from "../../../images/Banner3.jpg";
 const Header = () => {
-    return (
-        <div>
+  return (
+    <div>
       <div
         id="carouselExampleDark"
         className="carousel carousel-dark slide"
@@ -34,25 +34,13 @@ const Header = () => {
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active" data-bs-interval="10000">
-            <img
-              src={Bnr1}
-              className="d-block w-100"
-              alt="..."
-            />
+            <img src={Bnr1} className="d-block w-100" alt="..." />
           </div>
           <div className="carousel-item" data-bs-interval="2000">
-            <img
-              src={Bnr2}
-              className="d-block w-100"
-              alt="..."
-            />
+            <img src={Bnr2} className="d-block w-100" alt="..." />
           </div>
           <div className="carousel-item">
-            <img
-              src={Bnr3}
-              className="d-block w-100"
-              alt="..."
-            />
+            <img src={Bnr3} className="d-block w-100" alt="..." />
           </div>
         </div>
         <button
