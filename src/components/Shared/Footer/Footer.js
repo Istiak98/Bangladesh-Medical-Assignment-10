@@ -47,17 +47,36 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div className="col-md-6 item text">
+            <div className="col-md-4 item text">
               <h3>BANGLADESH MEDICAL</h3>
               <p>
                 At BANGLADESH MEDICAL , providing our patients with a trusted
                 and compassionate environment for healthcare is central to our
-                mission. We draw strength from our purpose, which is above all
-                to help and to heal. Our physicians, nurses and other caregivers
-                & supporting staff are passionate about providing the right care
-                at the right time, bringing hope and healing to our patients and
-                their families.
+                mission.
               </p>
+            </div>
+            <div className="col-md-2 item text">
+              <h3>CONTACT US</h3>
+              <div class="row g-3">
+                <div className="col-md-12">
+                  <input
+                    type="email"
+                    className="form-control"
+                    placeholder="Email"
+                    aria-label="First name"
+                  />
+                </div>
+                <div className="col-md-12">
+                  {/* <input type="text" className="form-control" placeholder="Message" aria-label="Message"/> */}
+                  <textarea
+                    class="form-control"
+                    rows="5"
+                    id="comment"
+                    placeholder="Message"
+                  ></textarea>
+                </div>
+                <button className="btn btn-outline-light">SEND</button>
+              </div>
             </div>
           </div>
           <p className="copyright">BANGLADESH MEDICAL © 2021</p>

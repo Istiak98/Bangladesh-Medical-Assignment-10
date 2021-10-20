@@ -31,5 +31,8 @@
     cursor: not-allowed;
   }
   .bg{
-    background-color: #2CAEE2
+    background-color: #091e3e
+  }
+  .nav-text{
+    color: white
   }

@@ -81,7 +81,16 @@ const Navbar = () => {
                 APPOINTMENT
               </NavLink>
             </li>
-            <li className="nav-item">Welcome :{user?.displayName}</li>
+            <li className="nav-item nav-text">Welcome :{user?.displayName}</li>{" "}
+            <br />
+            <img
+              src={user?.photoURL}
+              height="40px"
+              style={{ borderRadius: "50%" }}
+              width="40px"
+              alt=""
+              className="pull-left img-circle login"
+            />
           </ul>
 
           <form className="d-flex flex-fill mx-5">

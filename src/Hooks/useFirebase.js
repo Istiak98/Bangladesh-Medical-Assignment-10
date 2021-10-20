@@ -4,6 +4,7 @@ import initializeAuthentication from "../components/Shared/Login/Firebase/fireba
 initializeAuthentication();
 const useFirebase=()=>{
     const [user,setUser]=useState({})
+    // console.log(user)
   const [isLodaing,setIsLoading]=useState(true)
 
 

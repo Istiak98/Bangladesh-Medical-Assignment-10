@@ -1,5 +1,7 @@
 import React from "react";
 import "./Gallary.css";
+import G2 from "../../../images/Gallary/G2.jpg";
+import G1 from "../../../images/Gallary/G1.jpg";
 import G3 from "../../../images/Gallary/G3.jpg";
 import G4 from "../../../images/Gallary/G4.jpg";
 import G5 from "../../../images/Gallary/G5.jpg";
@@ -27,6 +29,16 @@ const Gallary = () => {
         <div className="col-6">
           <div className="p-3 ">
             <img src={G6} className="img-fluid img-thumbnail" alt="..." />
+          </div>
+        </div>
+        <div className="col-6">
+          <div className="p-3 ">
+            <img src={G1} className="img-fluid img-thumbnail" alt="..." />
+          </div>
+        </div>
+        <div className="col-6">
+          <div className="p-3 ">
+            <img src={G2} className="img-fluid img-thumbnail" alt="..." />
           </div>
         </div>
       </div>
