@@ -95,6 +95,7 @@ const Login = () => {
                 onBlur={handleEmailChange}
                 type="email"
                 className="form-control"
+                placeholder="abc@gmail.com"
                 required
               />{" "}
             </div>
@@ -107,6 +108,7 @@ const Login = () => {
                 onBlur={handlePasswordChange}
                 type="password"
                 className="form-control"
+                placeholder="*****"
                 required
               />{" "}
             </div>

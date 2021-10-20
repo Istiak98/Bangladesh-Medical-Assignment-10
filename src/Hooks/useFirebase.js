@@ -31,7 +31,7 @@ const signInUsingGoogle = () => {
 
 useEffect(() => {
 
-    const unsubscribed = onAuthStateChanged(auth, (user) => {
+    const undone = onAuthStateChanged(auth, (user) => {
       if (user) {
         setUser(user);
       } else {
@@ -42,7 +42,7 @@ useEffect(() => {
 
     });
 
-    return () => unsubscribed;
+    return () => undone;
 
   }, []);
 
