@@ -17,7 +17,7 @@ const useFirebase=()=>{
       .then(result=>{
           setUser(result.user)
       })
-      .finally(()=>{setIsLoading(false)})
+      .finally(()=>setIsLoading(false))
     }
 useEffect(()=>{
   const unsubcribed=  onAuthStateChanged(auth,user=>{
@@ -37,9 +37,7 @@ useEffect(()=>{
     const logOut=()=>{
         setIsLoading(true)
         signOut(auth)
-        .then(()=>{
-
-        })
+        .then(()=>{})
         .finally(()=>setIsLoading(false))
     }
     return{
