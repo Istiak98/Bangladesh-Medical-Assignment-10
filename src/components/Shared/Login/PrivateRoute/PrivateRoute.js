@@ -7,6 +7,7 @@ const PrivateRoute = ({ children, ...rest }) => {
   if (isLoading) {
    return <Spinner animation="border" variant="info" />;
   }
+
   return (
     <Route
       {...rest}
@@ -18,8 +19,10 @@ const PrivateRoute = ({ children, ...rest }) => {
           ></Redirect>
         
       }
+      
     ></Route>
   );
+
 };
 
 export default PrivateRoute;
